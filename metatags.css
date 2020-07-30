@@ -1,0 +1,45 @@
+@media screen and (min-width: 600px) {
+    #container {
+        display: flex;
+        justify justify-content: space-evenly;
+        flex-flow: wrap;
+        flex-direction: column;
+    }
+
+    body {
+        background-color: lightcoral;
+    }
+
+    .image {
+        align-self: end;
+        width: 500px;
+        height: auto;
+    }
+
+    .text {
+        align-self: start;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #container {
+        display: flex;
+        justify justify-content: space-evenly;
+        flex-flow: wrap;
+        flex-direction: row;
+    }
+
+    body {
+        background-color: lightblue;
+    }
+
+    .image {
+        align-self: start;
+        width: 200px;
+        height: auto;
+    }
+
+    .text {
+        align-self: end;
+    }
+}
